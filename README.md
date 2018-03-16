@@ -1,1 +1,2 @@
-# tech._dept._book
+# 技术部的讨论文章会归档于此
+* [Linux相关](/linux/linux_index.md)
