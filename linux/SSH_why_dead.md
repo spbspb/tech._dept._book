@@ -36,3 +36,12 @@ supervisor是用来监控程序是不是挂了的，如果程序挂了，supervi
 这样，即使你的机器意外重启了，机器重启以后，supervisor也会把所有需要的进程重新运行起来。
 
 ------The End
+
+
+
+----
+<i>
+<front color=lime>
+版权声明：</p>
+文章均由哈尔滨工业大学业余无线电俱乐部，技术部原创，转载请联系<a href=zhaoyuhao@by2hit.net>BY2HIT技术部</a>
+</i>
