@@ -4,6 +4,9 @@
     
     * [信息处理](/information/info_index.md)
         * [图像压缩](/information/pic_zip.md)
+		
+	* [业余无线电](/radio/radio_index.md)
+        * [八木天线](/radio/yagi_ant.md)
 
 
 
