@@ -1,5 +1,5 @@
 # Gitbook相关内容归档
-* [Git写文章指南](/information/gitbook_use.md)
+* [Git写文章指南](/git_book_use/gitbook_use.md)
 
 
 
