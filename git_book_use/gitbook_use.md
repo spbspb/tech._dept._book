@@ -39,7 +39,7 @@ push:
 
 在默认的情况下也可以输入 git origin master 推上去。
 
-##最后一步
+## 最后一步
 最后一步就是去自己的GitHub上提 merge request ，然后就可以静静地等待三老师的审核啦！（开心~~）
 
 
