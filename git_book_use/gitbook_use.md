@@ -25,7 +25,7 @@ add：
 
 commit:
 
-刚刚我们已经把 三老师特别帅.md 放到了暂存区，不过处在暂存区的文件随时可能会被覆盖。我们需要把它放到版本库里，输入 git commit -m 'v0.1' ，电脑可能会问你 Please tell me who you are. 
+刚刚我们已经把 三老师特别帅.md 放到了暂存区，不过处在暂存区的文件随时可能会被覆盖。我们需要把它放到版本库里，输入 git commit -m 'v0.1' （引号里的东西只是一个标记），电脑可能会问你 Please tell me who you are. 
 这时我们需要设置一下我们的email和用户名，分别输入命令 git config user.email "（这里填你注册Github时候用的邮箱）" 和 git config user.name "（这里填你注册Github时的用户名）"
 再执行一下commit的命令，如果你得到了一个 1 file changed 之类的结果，说明第二张桌子上的方块已经被整理好并保存起来了。
 
