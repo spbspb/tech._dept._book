@@ -40,8 +40,6 @@ supervisor是用来监控程序是不是挂了的，如果程序挂了，supervi
 
 
 ----
-<i>
-<front color=lime>
-版权声明：</p>
-文章均由哈尔滨工业大学业余无线电俱乐部，技术部原创，转载请联系<a href=zhaoyuhao@by2hit.net>BY2HIT技术部</a>
-</i>
+版权声明：
+
+文章均由哈尔滨工业大学业余无线电俱乐部，技术部原创，转载请联系<a href=zhaoyuhao@by2hit.net>BY2HIT技术部
