@@ -65,3 +65,42 @@ git merge upstream/master
 
 ### 悲催的事，你和上游库同时更改了同一个文件，产生了conflict（冲突）
 在写gitbook这个项目中，最有可能的情况就是三老师写了一篇文章更新了SUMMARY.md这个目录描述文件，而你写了一篇新文章也更新了SUMMARY.md，这样就产生了conflict。
+
+我模拟了一个常见情况，我新建了a.txt文件，并在SUMMARY.md中建立了到此文件的目录链接。 并提交  
+![](/git_book_use/gitbook_fork_sync/08.png)   
+然后在提交到我的远程库之前，我进行了之前的操作，保证我的库和上游库保证同步，而上游库三老师也在SUMMARY.md中添加了这篇文章的目录链接。**我BG2DGR更改了SUMMARY.md,三老师也更改了SUMMARY.md。这时，我执行merge会发生什么呢？  
+![](/git_book_use/gitbook_fork_sync/09.png)   
+没错，在我们意料之中，git给我们报出了conflict。面对三老师和BG2DGR的同时修改，git懵逼了！ 
+在这个时候git已经为你生成了冲突报告，我们查看一下SUMMARY.md这个文件  
+![](/git_book_use/gitbook_fork_sync/10.png)  
+你会看到我的提交在**<<<<<<< HEAD**和**=======**之间，
+而三老师的代码在 **=======** 和 **>>>>>>> upstream**之间。这时我既想保留自己的目录，同实也保证三老师的目录。
+**只需要我删除掉 “<<<<<<< HEAD”  “=======“ ”>>>>>>> upstream“这三个标记，并且将代码调整至我想要的顺序和情况**   
+![](/git_book_use/gitbook_fork_sync/11.png)   
+类似这样。
+然后产生一个commit  
+![](/git_book_use/gitbook_fork_sync/12.png)   
+这样如果commit成功了，就解决了这个冲突！
+
+## 完成你的提交——pull request
+最后你就可以使用
+```
+git push 
+```
+更新到你的GitHub上，并向三老师提交你的文章了。
+![](/git_book_use/gitbook_fork_sync/13.png)   
+![](/git_book_use/gitbook_fork_sync/14.png)   
+**一定是看到”Able to merge“才可以提交哟**
+否则三老师会被大家满是conflict的提交累坏的。
+
+>参考资料  
+>[知乎：gitlab或github下fork后如何同步源的新更新内容？的一个高票回答](https://www.zhihu.com/question/28676261)  
+>[git命令行解决冲突文件步骤](https://blog.csdn.net/zwl18210851801/article/details/79106448)
+
+-- END(累死)
+#### <p align="right"> 时间：2018.04.15 0：33</p>
+
+----
+版权声明：
+
+文章均由哈尔滨工业大学业余无线电俱乐部，技术部原创，转载请联系[BY2HIT技术部 zhaoyuhao@by2hit.net](zhaoyuhao@by2hit.net)
