@@ -4,8 +4,9 @@
     
     * [信息处理](/information/info_index.md)
         * [图像压缩](/information/pic_zip.md)
-    *[Gitbook相关](/git_book_use/gitbook_index.md)
+    * [Gitbook相关](/git_book_use/gitbook_index.md)
         * [利用git写文章指南](/git_book_use/gitbook_use.md)
+        * [gitbook重要的一部操作]
         
 ----
 版权声明：  
