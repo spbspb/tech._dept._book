@@ -17,7 +17,7 @@ git renote -v
 **强调： 在图中有美元符“$”开头的是输入的命令，没有的为回显**
 
 我在GitHub创建一个repo，起名叫a  
-clone到本地，并使用`git remote -v`查看远程库
+clone到本地，并使用`git remote -v`查看远程库  
 ![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/01.PNG) 
 ![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/02.PNG)   
 没错，你看到了有两个叫origin的远程库，且后方的括号里面的fetch push我们知道他们一个负责同步（fetch），另一个负责推送（push）。所以，如何同步你fork的“上游库”呢？  
@@ -29,7 +29,7 @@ clone到本地，并使用`git remote -v`查看远程库
 git clone https://github.com/BG2DGR/tech._dept._book.git
 ```
 查看远程库`git remote -v`  
-![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/03.PNG) 
+![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/03.PNG)   
 为了同步，我们需要把三老师的远程库添加为本地的“上游远程库”
 ```
 git remote add upstream https://github.com/ArtisticZhao/tech._dept._book.git
@@ -43,8 +43,8 @@ git remote add upstream https://github.com/ArtisticZhao/tech._dept._book.git
 ```
 git fetch upstream
 ```
-![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/05.PNG) 
-这是，一般来说，都会把上游库拉到本地的**upstream/master**
+![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/05.PNG)   
+这时候，一般来说，都会把上游库拉到本地的**upstream/master**
 
 ## 合并你的分支
 经过上一步，上游库同步在upstream/master，我们希望它在我们的master当中，就涉及到分支的合并了。
@@ -55,7 +55,7 @@ git merge upstream/master
 ```
 （PS：为了演示，我在本地中新建了一个文件，并commit）  
 这时弹出一个文本  
-![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/06.png) 
+![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/06.png)   
 意思是说为这次merge添加提示信息，（其实git的合并分支实在主分支上再次产生一个commit，具体可见老米的ppt）  
 保持并关闭这个文本之后，  
 ![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync/07.PNG)   
