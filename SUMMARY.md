@@ -6,7 +6,7 @@
         * [图像压缩](/information/pic_zip.md)
 
     * [业余无线电](/radio/radio_index.md)
-        * [天线](/radio/yagi_Antenna.md)
+        * [yagi_Antenna](/radio/yagi_Antenna.md)
 
     * [Gitbook相关](/git_book_use/gitbook_index.md)
         * [利用git写文章指南](/git_book_use/gitbook_use.md)
