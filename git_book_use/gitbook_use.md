@@ -89,7 +89,8 @@ git push XXX develop
 
 ## 最后一步
 最后一步就是去自己的GitHub上提交 merge request （此步骤请参考三老师的文章），然后就可以静静地等待三老师的审核啦！（开心~~）
-
+>参考资料  
+>[github使用指南——在你pull request之前（如何f同步你fork的库](https://github.com/liyutong0408/tech._dept._book/blob/master/git_book_use/gitbook_fork_sync.md)
 
 
 ------The End
