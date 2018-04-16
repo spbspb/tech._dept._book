@@ -10,18 +10,24 @@
 git init 
 ```
 这个命令将创建一个名为 .git 的子目录（隐藏文件夹），据说这些文件是 Git 仓库的骨干。
+
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/00.png)
 
 当然，我们不建议这样做，因为这样会在上传的过程中出现一些问题。我们推荐在文件夹里把现有的库clone下来。
 在浏览器中登陆自己的github，然后找到三老师（网址https://github.com/artisticzhao ），进入tech._dept._book，然后点击右上角的fork。
+
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/01.png)  
+
 在fork成功之后点击“clone or download”，点击网址旁边的按钮来复制网址。
-![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/02.png)  
+
+![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/02.png) 
+ 
 之后到git的界面，输入
 ```
 git clone https://...（右键粘贴刚才复制的网址）
 ```
 如果得到这样的结果，说明已经clone成功。
+
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/03.png)  
 
 ## 第二步————写文章
@@ -45,6 +51,7 @@ git add 三老师特别帅.md
 ```
 git status
 ```
+
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/04.png)  
 
 commit:
@@ -63,6 +70,7 @@ git config user.email "（这里填你注册Github时候用的邮箱）"
 git config user.name "（这里填你注册Github时的用户名）"
 ```
 再执行一下commit的命令，如果你得到了一个 这样的结果，说明第二张桌子上的方块已经被整理好并保存起。
+
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/05.png)  
 
 push:
@@ -85,6 +93,7 @@ git push XXX develop
 ```
 把本地合并好的分支推到远程仓库上。
 在默认的情况下也可以输入 git origin master 推上去。
+
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/06.png)  
 
 
