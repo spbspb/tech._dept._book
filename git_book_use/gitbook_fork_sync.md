@@ -1,4 +1,4 @@
-# github使用指南——在你pull request之前（如何f同步你fork的库）
+# github使用指南——在你pull request之前（如何同步你fork的库）
 #### <p align="right"> 作者：BG2DGR</p>
 
 ## 合作写书

@@ -44,13 +44,19 @@ git clone https://...（右键粘贴刚才复制的网址）
 其中关于图片的地址：可以先将图片整理好后跳过插入图片的步骤，然后通过在自己的GitHub上找到该图片右键查看图片地址来获得。
 
 ## 第三步————上传到自己的GitHub
-写好之后当然就是上传啊！上传分三个步骤：add commit push
+写好之后当然就是上传啊！上传分三个步骤：**add commit push**
 
-add：
+### add：
 
 在Git里面输入
 ```
 git add 三老师特别帅.md
+```
+**小提示：**
+
+如果需要add全部的更改的文件可以用
+```
+git add .   或者 git add *
 ```
 这步是把需要上传的文件添加到暂存区。相当于把第一张桌子上做好的方块放到第二张桌子上。
 可以用下面的命令来查看库的状态：
@@ -60,7 +66,7 @@ git status
 
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/04.png)  
 
-commit:
+### commit:
 
 刚刚我们已经把 三老师特别帅.md 放到了暂存区，不过处在暂存区的文件随时可能会被覆盖。我们需要把它放到版本库里，输入
 ```
@@ -79,7 +85,10 @@ git config user.name "（这里填你注册Github时的用户名）"
 
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/05.png)  
 
-push:
+此处链接一些三老师的文章，里面有详细的讲解。
+>[github使用指南——在你pull request之前（如何同步你fork的库](https://github.com/liyutong0408/tech._dept._book/blob/master/git_book_use/gitbook_fork_sync.md)
+
+### push:
 
 在之前的步骤里我们已经把文件保存到我们的版本库里面。但是如果某天索导给了三老师和张雪洁一个项目，让他们分工完成。然后就会发现一个问题，三老师和张雪洁都把自己的文件保存到了自己的电脑上。如果三老师想用一下张雪洁的某个文件，就只能用U盘去copy，这样一来就会变得灰常麻烦。于是乎，我们需要一个叫远程仓库的东西，让三老师和张雪洁把文件都上传到远程仓库中去，当仓库中的文件有改动的时候更新一下就好了。这时就需要用到push了。
 
@@ -105,10 +114,10 @@ git push XXX develop
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/06.png)  
 
 
-## 最后一步
+## 最后一步————提交给三老师
 最后一步就是去自己的GitHub上提交 merge request （此步骤请参考三老师的文章），然后就可以静静地等待三老师的审核啦！（开心~~）
 >参考资料  
->[github使用指南——在你pull request之前（如何f同步你fork的库](https://github.com/liyutong0408/tech._dept._book/blob/master/git_book_use/gitbook_fork_sync.md)
+>[github使用指南——在你pull request之前（如何同步你fork的库](https://github.com/liyutong0408/tech._dept._book/blob/master/git_book_use/gitbook_fork_sync.md)
 
 
 ------The End
