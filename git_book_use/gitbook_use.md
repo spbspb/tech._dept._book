@@ -37,6 +37,12 @@ git clone https://...（右键粘贴刚才复制的网址）
 
 正经一点，markdown语言如果不会的话可以去请教一下大佬们，或者可以去问问度娘，这里就不详细说了。
 
+
+关于图片插入的问题：
+
+如果用notepad来编辑的话一般格式为![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/07.png)
+其中关于图片的地址：可以先将图片整理好后跳过插入图片的步骤，然后通过在自己的GitHub上找到该图片右键查看图片地址来获得。
+
 ## 第三步————上传到自己的GitHub
 写好之后当然就是上传啊！上传分三个步骤：add commit push
 
@@ -93,6 +99,8 @@ git push XXX develop
 ```
 把本地合并好的分支推到远程仓库上。
 在默认的情况下也可以输入 git origin master 推上去。
+
+敲黑板！！！这里你的远程库的地址必须是自己的远程库地址，不知道的话可以到自己的GitHub上点clone复制地址（咱们的地址一般格式为https://github.com/（你的用户名）/tech._dept._book.git）
 
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/06.png)  
 
