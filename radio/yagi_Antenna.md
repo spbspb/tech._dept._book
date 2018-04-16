@@ -1,4 +1,4 @@
-卫星所：八木天线
+Yagi_Antenna 
 =====
 主讲嘉宾：胡超然  撰稿人：陈功
 --------
@@ -23,15 +23,15 @@
 我们为这次卫星升空做出了 0.0……1的贡献，哈哈哈！
 
                               天线图纸   
-![天线](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/radio/yagi_Antenna/p1.jpg)
+![yagi_Antenna](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/radio/yagi_Antenna/p1.jpg)
 
                            矢量网络分析仪
-![天线](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/radio/yagi_Antenna/p2.jpg)
+![yagi_Antenna](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/radio/yagi_Antenna/p2.jpg)
 
                         以下为项目组全体人员合影
-![天线](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/radio/yagi_Antenna/p3.jpg)
-![天线](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/radio/yagi_Antenna/p4.jpg)
+![yagi_Antenna](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/radio/yagi_Antenna/p3.jpg)
+![yagi_Antenna](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/radio/yagi_Antenna/p4.jpg)
 
 注 ：如有疑问，可参考《天线原理》一书
 * [业余无线电](/radio/yagi_Antenna.md)
-* [天线](/radio/yagi_Antenna.md)
+* [yagi_Antenna](/radio/yagi_Antenna.md)
