@@ -18,7 +18,7 @@ git init
 
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/01.png)  
 
-在fork成功之后点击“clone or download”，点击网址旁边的按钮来复制网址。
+在fork成功之后回到自己的GitHub上点击“clone or download”，点击网址旁边的按钮来复制网址。
 
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/02.png) 
  
