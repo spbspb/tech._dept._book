@@ -85,7 +85,7 @@ git config user.name "（这里填你注册Github时的用户名）"
 ![](https://raw.githubusercontent.com/liyutong0408/tech._dept._book/master/git_book_use/gitbook_use/05.png)  
 
 此处链接一些三老师的文章，里面有详细的讲解。
->[github使用指南——在你pull request之前（如何同步你fork的库）(https://github.com/liyutong0408/tech._dept._book/blob/master/git_book_use/gitbook_fork_sync.md)
+>[github使用指南——在你pull request之前（如何同步你fork的库）](https://github.com/liyutong0408/tech._dept._book/blob/master/git_book_use/gitbook_fork_sync.md)
 
 ### push:
 
