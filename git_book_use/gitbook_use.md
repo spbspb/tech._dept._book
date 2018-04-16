@@ -12,7 +12,7 @@ git init
 这个命令将创建一个名为 .git 的子目录（隐藏文件夹），据说这些文件是 Git 仓库的骨干。
 ![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_use/00.PNG)
 当然，我们不建议这样做，因为这样会在上传的过程中出现一些问题。我们推荐在文件夹里把现有的库clone下来。
-在浏览器中登陆自己的github，然后找到三老师（网址https://github.com/artisticzhao），进入tech._dept._book，然后点击右上角的fork。
+在浏览器中登陆自己的github，然后找到三老师（网址https://github.com/artisticzhao ），进入tech._dept._book，然后点击右上角的fork。
 ![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_use/01.PNG)  
 在fork成功之后点击“clone or download”，点击网址旁边的按钮来复制网址。
 ![](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_use/02.PNG)  
@@ -88,11 +88,9 @@ git push XXX develop
 
 
 ## 最后一步
-最后一步就是去自己的GitHub上提 merge request ，然后就可以静静地等待三老师的审核啦！（开心~~）
-最后链接一下三老师的文章
+最后一步就是去自己的GitHub上提交 merge request （此步骤请参考三老师的文章），然后就可以静静地等待三老师的审核啦！（开心~~）
 
->参考资料  
->[github使用指南——在你pull request之前（如何f同步你fork的库）](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/git_book_use/gitbook_fork_sync.md)  
+
 
 ------The End
 
