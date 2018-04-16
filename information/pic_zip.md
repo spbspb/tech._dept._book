@@ -26,3 +26,9 @@
 ![table 4](https://raw.githubusercontent.com/ArtisticZhao/tech._dept._book/master/information/pic_zip/04.png)
 
 人们常通过对编码方式的优化实现文件的压缩，而研究压缩主要研究信息的预处理，寻求信息之间的相互联系，进而找出合适的、高效的编码方法，使文件占用空间较小，达到压缩的目的。
+
+
+----
+版权声明：
+
+文章均由哈尔滨工业大学业余无线电俱乐部，技术部原创，转载请联系[BY2HIT技术部 zhaoyuhao@by2hit.net](zhaoyuhao@by2hit.net)
