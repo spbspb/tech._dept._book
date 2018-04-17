@@ -9,6 +9,7 @@
 
 * [业余无线电](/radio/radio_index.md)
     * [yagi_Antenna](/radio/yagi_Antenna.md)
+    * [expedition](/radio/expedition/expedition.md)
 
 * [Gitbook相关](/git_book_use/gitbook_index.md)
     * [利用git写文章指南](/git_book_use/gitbook_use.md)
