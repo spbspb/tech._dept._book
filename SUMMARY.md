@@ -9,7 +9,7 @@
 
 * [业余无线电](/radio/radio_index.md)
     * [yagi_Antenna](/radio/yagi_Antenna.md)
-
+    * [手台测评](/radio/手台测评.md)
 * [Gitbook相关](/git_book_use/gitbook_index.md)
     * [利用git写文章指南](/git_book_use/gitbook_use.md)
     * [github使用指南——在你pull request之前（如何同步你fork的库）](/git_book_use/gitbook_fork_sync.md)
